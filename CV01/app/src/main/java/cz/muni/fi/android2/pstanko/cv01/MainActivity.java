@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-
                 // 1st activity
                 Intent intent = new Intent(getBaseContext(), SecondActivity.class);
                 intent.putExtra("EXTRA_MESSAGE", text.getText());
